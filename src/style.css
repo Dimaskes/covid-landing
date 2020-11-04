@@ -15,14 +15,19 @@ a {
     text-decoration: none
 }
 
-.wrapper--background {
+
+/* .wrapper--background {
     width: 1903px;
     height: 1061px;
     background: radial-gradient(ellipse at center, #ffc8c8, #ffd5d5);
-}
+} */
 
 header {
     padding-top: 30px;
+}
+
+.nav--btn {
+    display: none;
 }
 
 .navigation {
@@ -44,6 +49,10 @@ header {
 
 .navigation--links a:hover {
     color: #FF383D !important;
+}
+
+.navigation--links :last-child {
+    display: none;
 }
 
 .contact--btn a {
