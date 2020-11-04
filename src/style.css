@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    color: #4B4F51;
+    font-family: Gelion, sans-serif;
+}
+
+a {
+    color: #4B4F51 !important;
+    text-decoration: none
+}
+
+.wrapper--background {
+    width: 1903px;
+    height: 1061px;
+    background: radial-gradient(ellipse at center, #ffc8c8, #ffd5d5);
+}
+
+header {
+    padding-top: 30px;
+}
+
+.navigation {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.navigation--links a {
+    transition: 0.3s;
+}
+
+.navigation--links a+a {
+    margin-left: 15px;
+}
+
+.navigation--links a:hover {
+    color: #FF383D !important;
+}
+
+.contact--btn a {
+    color: #FF383D !important;
+    border: 2px solid #FF383D;
+    border-radius: 45px;
+    padding: 17px 45px;
+}
+
+.contact--btn a:hover {
+    color: #FF383D;
+    border: 2px solid #FF383D;
+}
